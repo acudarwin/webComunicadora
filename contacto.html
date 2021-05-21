@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/css/styles.css">
+    <link rel="stylesheet" href="styles/css/fontawesome.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navegacion" id="nav">
+            <ul class="menu">
+                <li><a href='inicio.html'>Inicio</a></li>
+                <li><a href='quiensoy.html'>Quien soy</a></li>
+                <li><a href='servicios.html'>Servicios</a></li>
+                <li><a href='contacto.html'>Contacto</a></li>
+                <li><a href='habilidades.html'>Habilidades</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="contacto">
+        <section class="form_wrap">
+            <section class="cantact_info">
+                <section class="info_title">
+                    <span class="fa fa-user-circle"></span>
+                    <h3>INFORMACION<br>DE CONTACTO</h3>
+                </section>
+                <section class="info_items">
+                    <p><span class="fa fa-envelope"></span>madaidmobp@gmail.com</p>
+                    <p><span class="fa fa-mobile"></span> +59171885985</p>
+                </section>
+            </section>
+            <form class="form_contact">
+                <h2>Contactarme</h2>
+                <div class="user_info">
+                    <label for="names">Nombres *</label>
+                    <input type="text" id="names" name="nombre" required>
+                    <label for="phone">Telefono / Celular</label>
+                    <input type="text" id="phone" name="telefono">
+                    <label for="email">Correo electronico *</label>
+                    <input type="text" id="email" name="correo" required>
+                    <label for="mensaje">Mensaje *</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <input type="submit" value="Enviar Mensaje" id="btnSend">
+                </div>
+            </form>
+        </section>
+    </div>   
+</body>
+</html>
