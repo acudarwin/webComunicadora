@@ -4,7 +4,7 @@
     }
 h1{
     color: whitesmoke;
-    margin-left: 5%;
+    margin-left: 15%;
     font-size: 50px;
     margin-bottom: 50px;
 }
@@ -21,6 +21,8 @@ body{
 }
 .navegacion ul{
     list-style: none;
+    display: flex;
+    justify-content:space-around;
 }
 .menu > li{
     position: relative;
@@ -40,14 +42,14 @@ body{
 }
 .foto{
     width: 550px;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 /*animacion*/
 .animated-text{
     color: #fff;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 70%;
     transform: translate(-50%,-50%);
     background: transparent;
     padding: 0 40px;
@@ -176,7 +178,7 @@ body > footer{
     color: cornsilk;
 }
 body > div.foto > img{
-    width: 50%;
+    width: 70%;
 }
 .form_wrap{
     width: 1050px;
@@ -373,16 +375,15 @@ body > div.foto > img{
     background: #3371B6;
  }
  @media screen and (max-width: 650px) {
- .navegacion{
+    .navegacion{
     background: rgb(0, 0, 0);
     padding: 0%;
- }
- @media screen and (max-width: 650px){
+    }
     #nav > ul{
     width: 100%;
     }
- }
- @media screen and (max-width: 650px) {
+ 
+ 
     .menu > li > a{
     color: #d6cece;
     font-family: Impact, sans-serif;
@@ -390,57 +391,50 @@ body > div.foto > img{
     font-size: 12px;
     padding: 9px;
  }
- @media screen and (max-width: 650px) {
     .soy{
     margin-left: 0%;
     margin-right: 0%;
     padding: 1%;
     }
-    @media screen and (max-width: 650px){
+    
     body > div.servicios > div.guitarra > p{
     margin: 1%;
     padding: 1%;
     }
-}
-@media screen and (max-width: 650px){
+
     #contacto{
     margin: 1%;
     padding: 1%;
     height: 1%;
     }
-}
-@media screen and (max-width: 650px){
+
     body > section > h1{
     font-size: 25px;
     margin-left: 20%;
     }
-}
-@media screen and (max-width: 650px){
+
     body > div.servicios > div.trompeta > img{
     width: 80%;
     }
-}
-@media screen and (max-width: 650px){
+
     body > div.servicios > div.piano > img{
     width: 80%;
     }
-}
-@media screen and (max-width: 650px){
+
     body > div.servicios > div.guitarra > img{
     width: 80%;
     }
-}
-@media screen and (max-width: 650px){
+
     #contacto > h1{
     margin: 30%;
     font-size: 30px;
     }
-}
-@media screen and (max-width: 650px){
+
+
     #contacto > p{
     padding: 5% auto;
     }
-}
+ }
 @font-face {
     font-family: 'FontAwesome';
     src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
